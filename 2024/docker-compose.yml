@@ -1,0 +1,8 @@
+name: advent-of-code-2024
+
+services:
+  go:
+    image: golang:1.20-alpine
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
